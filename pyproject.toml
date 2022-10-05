@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "demo"
+version = "0.1.0"
+description = "demo project"
+authors = ["Iryna Shymbra"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
